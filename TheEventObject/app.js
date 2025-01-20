@@ -3,9 +3,9 @@ document.querySelector('button').addEventListener('click', (evt) => {
 });
 
 const input = document.querySelector('input');
-input.addEventListener('keydown', () => {
-    console.log('KEYDOWN');
+input.addEventListener('keydown', (e) => {
+    console.log(e);
 })
-input.addEventListener('keyup', () => {
-    console.log('KEYUP');
-})
+// input.addEventListener('keyup', () => {
+//     console.log('KEYUP');
+// })
